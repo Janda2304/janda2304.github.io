@@ -38,10 +38,13 @@ h1
 .main-text
 {
     align-self: center;
-    padding-left: .5%;
-    padding-top: .5%;
-    padding-bottom: 1%;
+    padding: .5% 1% 1% 1%;
     text-align: center;
+}
+
+div
+{
+    padding: 2.5%;
 }
 
 .stats-list

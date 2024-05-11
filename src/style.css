@@ -373,6 +373,7 @@
 {
     display: none;
     cursor: pointer;
+    z-index: 5000;
     padding: 1vw;
     font-size: 2rem;
     position: absolute;
@@ -409,6 +410,7 @@
         width: 100%;
         gap: 1%;
         height: 100vh;
+        min-height: 400px;
         top: 10vh;
         background-color: var(--primary-color-100);
         z-index: 100;
@@ -459,6 +461,7 @@
         width: 100%;
         min-height: 450px;
         align-items: center;
+        position: static;
     }
 
     .footer-page-logo

@@ -6,6 +6,7 @@ body
     color: white;
     min-width: 100%;
     min-height: 100vh;
+    gap: 5%;
     font-family: Vinque, Roboto, serif;
     background-image: url("../img/homepage-background.png");
     background-size: cover;
@@ -142,6 +143,7 @@ body
     font-size: 2rem;
     color: var(--quaternary-color-100);
     margin-top: 2.5%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px)
@@ -237,8 +239,9 @@ body
     .news-container
     {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         margin-top: 5%;
+        margin-bottom: 50%;
         gap: 2%;
     }
 
