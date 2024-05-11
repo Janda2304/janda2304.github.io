@@ -9,7 +9,7 @@ function toggleMenu()
     if (!isOpen)
     {
         menu.style.display = "flex";
-        menu.style.animation = "slide-in 0.75s ease-in-out";
+        menu.style.animation = "slide-in 0.4s ease-in-out";
         isOpen = true;
     }
     else
@@ -17,7 +17,7 @@ function toggleMenu()
         let computedStyle = window.getComputedStyle(menu);
         let currentPosition = computedStyle.getPropertyValue("transform");
 
-        menu.style.animation = "slide-out 0.75s ease-in-out";
+        menu.style.animation = "slide-out 0.4s ease-in-out";
         menu.style.transform = currentPosition;
         setTimeout(() =>
         {
