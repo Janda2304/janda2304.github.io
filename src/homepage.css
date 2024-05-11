@@ -1,0 +1,150 @@
+
+/*
+color palette:
+
+lawn green: #95e836
+black: #000300
+snow: #fff7f9
+coyote: #84714F
+rose ebony: #5A3A31
+bistre: #31231E
+african violet: #AB92BF
+*/
+
+
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: Vinque, Roboto, serif;
+    background-image: url("../img/homepage-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 1vh;
+    backdrop-filter: blur(0.15rem);
+}
+
+.trailer-container
+{
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 0.5vw;
+    margin-top: 5%;
+}
+
+.game-info-container
+{
+    display: flex;
+    align-self: center;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 4%;
+    width: 65%;
+    height: 10vh;
+    min-height: 60px;
+    margin-bottom: 50vh;
+}
+
+.game-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 60%;
+    font-family: Vinque, Roboto, serif;
+    background-color: var(--button-color);
+    border: 0.2vw solid snow;
+    border-radius: 0.5vw;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.game-button:hover
+{
+    background-color: var(--button-hover-color);
+    border: 0.2vw solid #e5e0e0;
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+
+video
+{
+    width: 100%;
+    border-radius: 0.5vw;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .trailer-container
+    {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .game-info-container
+    {
+        width: 90%;
+    }
+
+    .game-button
+    {
+        font-size: 1.2rem;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px)
+{
+    .trailer-container
+    {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .game-info-container
+    {
+        width: 80%;
+    }
+
+    .game-button
+    {
+        font-size: 1.3rem;
+        width: 50%;
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    .trailer-container
+    {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .game-info-container
+    {
+        width: 90%;
+    }
+    .game-button
+    {
+        font-size: 1rem;
+        width: 30%;
+        height: 55%;
+    }
+}
