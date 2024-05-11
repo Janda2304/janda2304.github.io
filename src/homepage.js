@@ -14,4 +14,6 @@ document.addEventListener('DOMContentLoaded', function()
     {
         window.location.href = "src/about-game.html";
     });
+
+
 });

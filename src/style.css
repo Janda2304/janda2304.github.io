@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'Vinque';
+    src: url('../fonts/vinque rg.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
 :root
 {
     --primary-color-100: rgba(60, 60, 60, 1);
@@ -208,6 +213,7 @@
     display: flex;
     flex-direction: column;
     align-self: flex-end;
+    margin-top: 3%;
     width: 100%;
     background-color: var(--primary-color-100);
 }
