@@ -10,7 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (searchTerm.includes('goblin') || searchTerm.includes('Goblin')) {
             window.location.href = 'wiki/red-goblin.html';
-        } else {
+        }
+        else if (searchTerm.includes('bear') || searchTerm.includes('Bear'))
+        {
+            window.location.href = 'wiki/bear.html';
+        }
+        else
+        {
             window.location.href = 'wiki/no-result.html?search=' + searchTerm;
         }
     }

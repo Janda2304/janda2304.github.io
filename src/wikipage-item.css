@@ -37,9 +37,9 @@ h1
 
 .main-text
 {
-    align-self: flex-start;
+    align-self: center;
     padding-left: .5%;
-    padding-top: 5%;
+    padding-top: .5%;
     padding-bottom: 1%;
     text-align: center;
 }
